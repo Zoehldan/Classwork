@@ -1,0 +1,28 @@
+body {
+    background-color:#ffce29;
+    color:antiquewhite;
+}
+header {
+    background-color:rgb(255,57,57);
+}
+section {
+    background-color:teal;
+}
+section header {
+    color:#00ce00;
+}
+aside {
+    background-color:#007b4a;
+}
+footer {
+    background-color:rgb(255,57,57);
+}
+nav {
+    background-color:#007b4a;
+}
+h3 {
+    color:#00deff
+}
+a {
+    color:#3333ff
+}
