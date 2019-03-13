@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+        <script src="brains.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title></title>
+    </head>
+    <body>
+        <table id="board">
+            <tr>
+                <td id="0"></td>
+                <td id="1"></td>
+                <td id="2"></td>
+            </tr>
+            <tr>
+                <td id="3"></td>
+                <td id="4"></td>
+                <td id="5"></td>
+            </tr>
+            <tr>
+                <td id="6"></td>
+                <td id="7"></td>
+                <td id="8"></td>
+            </tr>
+        </table>
+        <div id="output"></div>
+        <div id="buttonBar">
+            <button type="button">RESET</button>
+        </div>
+        <br>
+        <table width=50% style="margin:auto">
+            <tr>
+                <th style="text-align:left">P1</th>
+                <th colspan="2" style="text-align:center">TOTAL</th>
+                <th style="text-align:right">P2</th>
+            </tr>
+            <tr>
+                <td id="p1scoreNum" style="text-align:left">0</td>
+                <td id="totalNum" colspan="2" style="text-align:center">0</td>
+                <td id="p2scoreNum" style="text-align:right">0</td>
+            </tr>
+        </table>
+    </body>
+</html>
